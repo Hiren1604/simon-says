@@ -99,7 +99,8 @@ body {
         font-size: 1.1rem;
     }
     .btn {
-        height: 150px;
-        width: 150px;
+        height: 160px;
+        width: 160px;
+        margin: 0.5rem;
     }
 }

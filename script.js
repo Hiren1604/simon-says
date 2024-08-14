@@ -9,12 +9,15 @@ let subHeading = document.querySelector("h2");
 let btn = document.querySelector(".btn");
 let allBtns = document.querySelectorAll(".btn");
 
-document.addEventListener("keypress", () => {
+document.addEventListener("keypress",startGame);
+document.addEventListener("click",startGame);
+
+function startGame() {
     if (start == false) {
         start = true;
         levelUp();
     }
-});
+}
 
 function levelUp() {
     userSeq = [];
@@ -67,5 +70,5 @@ function reset() {
 }
 
 function makeSound() {
-    
+
 }
